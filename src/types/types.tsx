@@ -2,6 +2,10 @@ export type topnavbar = {
     id?: string;
 }
 
+export type childrenprops = {
+    children: React.ReactNode;
+}
+
 export type IChatMessageProps = {
     userQuery: string;
     botResponds: string;
@@ -12,3 +16,7 @@ export type IChatMessageProps = {
 export type chatBubble = {
     message: string;
 } 
+
+export type MessageComposerProps = {
+    onSubmit: (message: string) => void;
+  }

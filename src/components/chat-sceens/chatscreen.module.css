@@ -1,0 +1,106 @@
+.ChatWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    justify-content: center;
+}
+
+.chatThreads{
+    padding-top: 18%;
+    padding-bottom: 12%;
+}
+
+.UserBubble {
+    background-color: #e3eee3;
+    color: black;
+    padding: 10px;
+    border-radius: 15px 0px 15px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.BotBubble {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 15px 15px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin-left: 5px;
+
+}
+
+.botWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} 
+
+.userWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+
+
+.circle{
+    width:5px;
+    height:5px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #e3eee3;
+    transform-origin: 50%;
+    animation: circle .6s alternate infinite ease;
+}
+
+
+.circulardiv{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+@keyframes circle{
+    0%{
+        top:5px;
+        height:5px;
+        border-radius: 50px 50px 50px 50px;
+       
+    }
+    40%{
+        height:5px;
+        border-radius: 50%;
+        
+    }
+    100%{
+        top:0%;
+    }
+}
+.circle:nth-child(2){
+    left: 5%;
+    animation-delay: .2s;
+}
+.circle:nth-child(3){
+    left:10%;
+    right:15%;
+    animation-delay: .3s;
+}
+
+
+
+
+

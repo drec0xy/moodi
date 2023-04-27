@@ -8,16 +8,16 @@ const TopNavBar: React.FC<topnavbar> = ({ id }) => {
 
 
     return (
-        <nav className="bg-white border-gray-200 dark:bg-gray-900">
+        <nav className={`bg-white shadow-sm top-0 left-0  w-full fixed dark:bg-white ${styles.navbr}` }>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <div className="flex border items-center">
-                    <i className="fi fi-sr-angle-small-left text-xl"></i>
+                <div className="flex  items-center">
+                    <i className="fi fi-sr-backpack text-xl"></i>
                 </div>
-                <div className="self-center m-0 text-l  flex-col font-semibold whitespace-nowrap dark:text-white">
+                <div className="self-center m-0 text-l  flex-col font-semibold bg-white dark:text-black">
                     <div className=" items-center justify-center mb-0">
                         <text className="mb-0">Moodi Bot</text>
                     </div>
-                    <div className={`border items-center flex-row justify-center p-0 mb-0 mt-0 px-5 ${styles.center}`}>
+                    <div className={` items-center flex-row justify-center p-0 mb-0 mt-0 px-5 ${styles.center}`}>
                         <div>
                             <div className={` center ${styles.onlineindicator} `}>
                                 <span className={`center  ${styles.blink} `}></span>
@@ -29,11 +29,21 @@ const TopNavBar: React.FC<topnavbar> = ({ id }) => {
 
                 </div>
 
-                <button type="button" className="inline-flex border border-blue-700 flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-                    <svg className="w-12 h-12 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path clip-rule="evenodd" fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"></path>
+                <div className={`w-50 h-50 ${styles.circulardiv}`}>
+                    <div>
+                    <svg width="20" 
+                        height="20" 
+                        viewBox="0 0 260 206" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="260" height="162.442" rx="25" fill="black" />
+                        <ellipse cx="64.5695" cy="81.2208" rx="19.8013" ry="33.842" fill="white" />
+                        <ellipse cx="198.874" cy="81.2208" rx="19.8013" ry="33.842" fill="white" />
+                        <ellipse cx="130.861" cy="81.2208" rx="20.6623" ry="20.3052" fill="white" />
+                        <path d="M201.744 161.932L160.604 194.29L173.911 117.962L201.744 161.932Z" fill="black" />
                     </svg>
-                </button>
+                    </div>
+                </div>
             </div>
 
         </nav>

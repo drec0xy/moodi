@@ -1,3 +1,8 @@
+.navbar{
+  height: auto;
+  margin-bottom: calc();
+}
+
 .center{
     justify-content: center;
     align-items: center;
@@ -31,4 +36,20 @@ div.onlineindicator {
     100% { transform: scale(2, 2); 
             opacity: 0;
           }
+  }
+
+  .circulardiv{
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .chatThreads{
+    height: 100px;
   }

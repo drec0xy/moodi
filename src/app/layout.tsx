@@ -1,3 +1,4 @@
+import TopNavBar from 'moodi_bot/components/top-nav-bar/top-nav-bar'
 import './globals.css'
 
 export const metadata = {
@@ -17,7 +18,10 @@ export default function RootLayout({
           <link rel="apple-touch-icon" href="/icon.png"></link>
           <meta name="theme-color" content="#fff" />
       </head>
-      <body>{children}</body>
+      <body>
+      <TopNavBar></TopNavBar>
+
+        {children}</body>
     </html>
   )
 }

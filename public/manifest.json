@@ -3,7 +3,7 @@
     "background_color": "#fefefe",
     "display": "standalone",
     "scope": "moodi.chat/",
-    "start_url": "moodi.chat/",
+    "start_url": "/",
     "name": "moodiChat",
     "short_name": "moodi",
     "description": "chatbot app",
