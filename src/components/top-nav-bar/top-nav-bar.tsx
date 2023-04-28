@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { topnavbar } from 'moodi_bot/types/types';
 import styles from "./top-nav-bar.module.css";
+import DropDownMenu from '../drop-down-menu/drop-down-menu';
 
 
 const TopNavBar: React.FC<topnavbar> = ({ id }) => {
@@ -11,7 +12,7 @@ const TopNavBar: React.FC<topnavbar> = ({ id }) => {
         <nav className={`bg-white shadow-sm top-0 left-0  w-full fixed dark:bg-white ${styles.navbr}` }>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="flex  items-center">
-                    <i className="fi fi-sr-backpack text-xl"></i>
+                    <DropDownMenu color={'white'} ></DropDownMenu>
                 </div>
                 <div className="self-center m-0 text-l  flex-col font-semibold bg-white dark:text-black">
                     <div className=" items-center justify-center mb-0">

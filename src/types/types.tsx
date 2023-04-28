@@ -6,6 +6,10 @@ export type childrenprops = {
     children: React.ReactNode;
 }
 
+export type colorprops = {
+    color: string;
+}
+
 export type IChatMessageProps = {
     userQuery: string;
     botResponds: string;
