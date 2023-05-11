@@ -1,0 +1,42 @@
+{
+    "chatsthread":[
+
+        {
+            "userQuery": "Hello moodi",
+            "botResponds": "hi, how may I help you please",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          },
+          {
+            "userQuery": "What happens if I was absent for exams normal session?",
+            "botResponds": "Your resit marks would be considered as results for the normal session. You have to write an application to your head of departement in time for this ajustment to be made.",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          },
+          {
+            "userQuery": "Ok, Thanks for this information moodi",
+            "botResponds": "Just doing my job🤗",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          },
+          {
+            "userQuery": "I would be back again with more wories😂",
+            "botResponds": "Sure any time😎",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          },
+          {
+            "userQuery": "Hi, moodi👋🏾",
+            "botResponds": "hello",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          },
+          {
+            "userQuery": "can you do something for me?",
+            "botResponds": "sure ",
+            "queryTimestamp": "2013-10-21T13:28:06.419Z",
+            "respondTimestamp": "2013-10-21T13:28:06.419Z"
+          }
+    ]
+    
+}

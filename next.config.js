@@ -7,6 +7,16 @@ const nextConfig = {
 };
 
 
+module.exports = {
+  async rewrites() {
+      return [
+        {
+          source: '/api/:path*',
+          destination: 'https://moodi-api.vercel.app/',
+        },
+      ]
+    },
+};
 
 const withPWA = require('next-pwa')({
   dest: 'public'

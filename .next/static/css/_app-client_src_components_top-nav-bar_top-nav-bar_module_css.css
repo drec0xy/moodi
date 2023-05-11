@@ -1,0 +1,58 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/top-nav-bar/top-nav-bar.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.top-nav-bar_navbar__0v4kN{
+  height: auto;
+  margin-bottom: calc();
+}
+
+.top-nav-bar_center__CPF5M{
+    justify-content: center;
+    align-items: center;
+}
+div.top-nav-bar_onlineindicator__eT4mf {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+    
+    background-color: #0fcc45;
+    border-radius: 50%;
+    
+    position: relative;
+  }
+  span.top-nav-bar_blink__kna__ {
+    display: block;
+    width: 6px;
+    height: 6px;
+    
+    background-color: #0fcc45;
+    opacity: 0.7;
+    border-radius: 50%;
+    
+    animation: top-nav-bar_blink__kna__ 1s linear infinite;
+  }
+
+  /*Animations*/
+
+@keyframes top-nav-bar_blink__kna__ {
+    100% { transform: scale(2, 2); 
+            opacity: 0;
+          }
+  }
+
+  .top-nav-bar_circulardiv__IHRcQ{
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .top-nav-bar_chatThreads___hbqx{
+    height: 100px;
+  }

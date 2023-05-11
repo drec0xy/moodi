@@ -1,0 +1,175 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/Message-composer/message-composer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.message-composer_sendIcon__AMvLo {
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+
+}
+
+.message-composer_inputBox__LhJAz {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 15px;
+    gap: 10px;
+
+    width: 75%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+    border: 1px solid #000000;
+    border-radius: 25px
+}
+
+.message-composer_inputBox__LhJAz:focus {
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+.message-composer_flexrow__xpHSl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 100%;
+    height: 12%;
+
+
+    /* Inside auto layout */
+    align-self: stretch;
+
+}
+
+.message-composer_sendbutton__j_qLk {
+    
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 60px;
+    height: 50px;
+
+    background: #000000;
+    border-radius: 15px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/chat-sceens/chatscreen.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.chatscreen_ChatWrapper__r680W {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    justify-content: center;
+}
+
+.chatscreen_chatThreads__uxcOh{
+    padding-top: 18%;
+    padding-bottom: 12%;
+}
+
+.chatscreen_UserBubble__AzprP {
+    background-color: #e3eee3;
+    color: rgb(66, 3, 3);
+    padding: 10px;
+    border-radius: 15px 0px 15px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chatscreen_BotBubble__kTvEB {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 15px 15px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    margin-left: 5px;
+
+}
+
+.chatscreen_botWrapper__uRhVJ{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} 
+
+.chatscreen_userWrapper__6U_7V{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+
+
+.chatscreen_circle__dJ1KG{
+    width:5px;
+    height:5px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #e3eee3;
+    transform-origin: 50%;
+    animation: chatscreen_circle__dJ1KG .6s alternate infinite ease;
+    z-index: inherit;
+
+}
+
+
+.chatscreen_circulardiv__e15rl{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+@keyframes chatscreen_circle__dJ1KG{
+    0%{
+        top:5px;
+        height:5px;
+        border-radius: 50px 50px 50px 50px;
+       
+    }
+    40%{
+        height:5px;
+        border-radius: 50%;
+        
+    }
+    100%{
+        top:0%;
+    }
+}
+.chatscreen_circle__dJ1KG:nth-child(2){
+    left: 5%;
+    animation-delay: .2s;
+}
+.chatscreen_circle__dJ1KG:nth-child(3){
+    left:10%;
+    right:15%;
+    animation-delay: .3s;
+}
+
+
+
+
+
+

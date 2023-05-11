@@ -15,7 +15,7 @@ const Chat: React.FC<ChatProps> = ({ userMessage, botMessage }) => {
             </div>
 
             <div className={`${styles.botWrapper}`}>
-                <div className={`w-50 h-50 ${styles.circulardiv}`}>
+                <div className={` ${styles.circulardiv}`}>
                     <div>
                         <svg width="10"
                             height="10"
