@@ -130,6 +130,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/provider.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/provider.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/provider.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Providers": {
+        "id": "(sc_client)/./src/app/provider.tsx",
+        "name": "Providers",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/drop-down-menu/drop-down-menu.tsx": {
       "": {
         "id": "(sc_client)/./src/components/drop-down-menu/drop-down-menu.tsx",
@@ -427,6 +453,32 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    }
+  },
+  "C:\\Users\\USER\\Desktop\\CSC498\\Implementation\\moodi\\src\\app\\provider.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/provider.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/provider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Providers": {
+      "id": "(app-client)/./src/app/provider.tsx",
+      "name": "Providers",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
     }
   },
   "C:\\Users\\USER\\Desktop\\CSC498\\Implementation\\moodi\\src\\components\\drop-down-menu\\drop-down-menu.tsx": {

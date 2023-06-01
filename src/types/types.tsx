@@ -11,21 +11,23 @@ export type colorprops = {
 }
 
 export class IChatMessageProps {
-    userQuery: string
-    botResponds: string
-    queryTimestamp: Date
-    respondTimestamp: Date
+    message: string
+    bot?: boolean
 
-    constructor(userQuery: string, botResponds: string, queryTimestamp: Date, respondTimestamp: Date){
-        this.botResponds = botResponds
-        this.userQuery = userQuery
-        this.respondTimestamp = respondTimestamp
-        this.queryTimestamp = queryTimestamp
+    constructor(message: string, bot?: boolean){
+        this.message = message
+        if(!bot){
+            this.bot = false
+        }
+        else{
+            bot = bot
+        }
     }
   }
 
 export type chatBubble = {
     message: string;
+
 } 
 
 export type MessageComposerProps = {

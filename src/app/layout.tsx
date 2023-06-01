@@ -1,5 +1,6 @@
 import TopNavBar from 'moodi_bot/components/top-nav-bar/top-nav-bar'
 import './globals.css'
+import { Providers } from './provider'
 
 export const metadata = {
   title: 'Moodi',
@@ -19,9 +20,12 @@ export default function RootLayout({
           <meta name="theme-color" content="#fff" />
       </head>
       <body>
+        <Providers>
       <TopNavBar></TopNavBar>
 
-        {children}</body>
+        {children}
+     </Providers>
+      </body>
     </html>
   )
 }
